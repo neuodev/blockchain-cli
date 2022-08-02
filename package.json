@@ -1,0 +1,19 @@
+{
+  "name": "ethereum",
+  "version": "1.0.0",
+  "description": "Indexing of ethereum blockchain ",
+  "main": "index.js",
+  "scripts": {
+    "start": "cargo run -q",
+    "dev": "nodemon --exec \"cargo run -q\" ./src/main.rs",
+    "build": "cargo build",
+    "prod": "cargo build --release",
+    "test": "cargo test",
+    "fmt": "rustfmt --edition 2021 ./src/main.rs"
+  },
+  "author": "Ahmed Ibrahim",
+  "license": "MIT ",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
